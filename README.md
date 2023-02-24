@@ -64,9 +64,12 @@ Two Unit Tests each of20 Marks (duration 01 hour)
 • First test after the completion of 30-40 % of the syllabus
 • Second test after completion of 80-90% of the syllabus
 One Improvement test before the closing of the academic term may be conducted if necessary. However best two tests out of three shall be taken into consideration.
+
 Two assignments each of 10 Marks
 The teacher has to plan the assignments and get them completed by the students well before the closing of the term so that marks entry in the examination portal shall be done in time. Formative (Successive) Assessments include Assignments/Quizzes/Seminars/ Course projects/Field surveys/ Case studies/ Hands-on practice (experiments)/Group Discussions/ others. . The Teachers shall choose the types of assignments depending on the requirement of the course and plan to attain the Cos and POs. (to have a less stressed CIE, the portion of the syllabus should not be common /repeated for any of the methods of the CIE. Each method of CIE should have a different syllabus portion of the course). CIE methods /test question paper is designed to attain the different levels of Bloom’s taxonomy as per the outcome defined for the course.
+
 The sum of two tests, two assignments, will be out of 60 marks and will be scaled down to 30 marks
+
 CIE for the practical component of the Integrated Course
 • On completion of every experiment/program in the laboratory, the students shall be evaluated and marks shall be awarded on the same day. The15 marks are for conducting the experiment and preparation of the laboratory record, the other 05 marks shall be for the test conducted at the end of the semester.
 • The CIE marks awarded in the case of the Practical component shall be based on the continuous evaluation of the laboratory report. Each experiment report can be evaluated for 10 marks. Marks of all experiments’ write-ups are added and scaled down to 15 marks.
@@ -75,6 +78,7 @@ CIE for the practical component of the Integrated Course
 4
 completion of all the experiments (whichever is early) shall be conducted for 50 marks and scaled down to 05 marks.
 Scaled-down marks of write-up evaluations and tests added will be CIE marks for the laboratory component of IPCC for 20 marks.
+
 Semester End Examination (SEE):
 SEE for IC
 Theory SEE will be conducted by University as per the scheduled time table, with common question papers for the course (duration 03 hours)
