@@ -16,6 +16,7 @@ These are sample Strategies, which teacher can use to accelerate the attainment 
 Module-1 (8 hours)
 Introduction to Object Oriented Programming: Computer programming background- C++ overview. First C++ Program -Basic C++ syntax, Object Oriented Programming: What is an object, Classes, methods and messages, abstraction and encapsulation, inheritance, abstract classes, polymorphism.
 Textbook 1: Chapter 1(1.1 to 1.8)
+
 Module-2 (8 hours)
 Functions in C++: Tokens – Keywords – Identifiers and constants – Operators in C++ – Scope resolution operator – Expressions and their types – Special assignment expressions – Function prototyping – Call by reference – Return by reference – Inline functions -Default arguments – Function overloading.
 Textbook 2: Chapter 3(3.2,3.3,3.4,3.13,3.14,3.19, 3.20) , chapter 4(4.3,4.4,4.5,4.6,4.7,4.9)
@@ -25,8 +26,8 @@ Textbook 2: Chapter 6 (6.2,6.11) chapter 8 (8.1 to,8.8)
 Module-4 (8 hours)
 I/O Streams: C++ Class Hierarchy- File Stream-Text File Handling- Binary File Handling during file operations.
 Textbook 1: Chapter 12(12.5) , Chapter 13 (13.6,13.7)
-26.10.2022
-2
+
+
 Module-5 (8 hours)
 Exception Handling: Introduction to Exception - Benefits of Exception handling- Try and catch blockThrow statement- Pre-defined exceptions in C++
 Textbook 2: Chapter 13 (13.2 to13.6)
@@ -48,15 +49,22 @@ Programming Assignments:
 add(int a, int b)
 add(double a, double b)
 5. Create a class named Shape with a function that prints "This is a shape". Create another class named Polygon inheriting the Shape class with the same function that prints "Polygon is a shape". Create two other classes named Rectangle and Triangle having the same function which prints "Rectangle is a polygon" and "Triangle is a polygon" respectively. Again, make another class named Square having the same function which prints "Square is a rectangle".Now, try calling the function by the object of each of these classes.
-6.Suppose we have three classes Vehicle, FourWheeler, and Car. The class Vehicle is the base class, the class FourWheeler is derived from it and the class Car is derived from the class FourWheeler. Class Vehicle has a method 'vehicle' that prints 'I am a vehicle', class FourWheeler has a method 'fourWheeler' that prints 'I have four wheels', and class Car has a method 'car' that prints 'I am a car'. So, as this is a multi-level inheritance; we can have access to all the other classes methods from the object of the class Car. We invoke all the methods from a Car object and print the corresponding outputs of the methods.
+6. 
+7.Suppose we have three classes Vehicle, FourWheeler, and Car. The class Vehicle is the base class, the class FourWheeler is derived from it and the class Car is derived from the class FourWheeler. Class Vehicle has a method 'vehicle' that prints 'I am a vehicle', class FourWheeler has a method 'fourWheeler' that prints 'I have four wheels', and class Car has a method 'car' that prints 'I am a car'. So, as this is a multi-level inheritance; we can have access to all the other classes methods from the object of the class Car. We invoke all the methods from a Car object and print the corresponding outputs of the methods.
 So, if we invoke the methods in this order, car(), fourWheeler(), and vehicle(), then the output will be
-26.10.2022
-3
 I am a car
 I have four wheels
 I am a vehicle
-Write a C++ program to demonstrate multilevel inheritance using this. 7. Write a C++ program to create a text file, check file created or not, if created it will write some text into the file and then read the text from the file.
-8.Write aC++ program to write and read time in/from binary file using fstream 9. Write a function which throws a division by zero exception and catch it in catch block. Write a C++ program to demonstrate usage of try, catch and throw to handle exception. 10. Write a C++ program function which handles array of bounds exception using C++.
+Write a C++ program to demonstrate multilevel inheritance using this. 
+
+7. Write a C++ program to create a text file, check file created or not, if created it will write some text into the file and then read the text from the file.
+
+8.Write aC++ program to write and read time in/from binary file using fstream 
+
+9. Write a function which throws a division by zero exception and catch it in catch block. Write a C++ program to demonstrate usage of try, catch and throw to handle exception. 
+
+10. Write a C++ program function which handles array of bounds exception using C++.
+
 Assessment Details (both CIE and SEE)
 The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester End Exam (SEE) is 50%. The minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50). The minimum passing mark for the SEE is 35% of the maximum marks (18 marks out of 50). A student shall be deemed to have satisfied the academic requirements and earned the credits allotted to each subject/ course if the student secures not less than 35% (18 Marks out of 50) in the semester-end examination(SEE), and a minimum of 40% (40 marks out of 100) in the sum total of the CIE (Continuous Internal Evaluation) and SEE (Semester End Examination) taken together.
 Continuous Internal Evaluation(CIE):
