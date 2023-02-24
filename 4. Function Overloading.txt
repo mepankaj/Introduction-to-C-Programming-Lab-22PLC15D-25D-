@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+// function with 2 integer parameters
+void add(int a, int b) {
+    cout << "Integer number1: " << a<< endl;
+    cout << " and Integer number2: " << b << endl;
+}
+
+// function with 2 double  parameter
+void add(double p, double q) {
+    cout << "Double number1: " << p << endl;
+    cout << " and Double number2: " << q << endl;
+}
+
+
+
+int main() {
+
+    int x = 5 , y=10;
+    double l = 5.5, m=10.5;
+    cout<<"Demo of Function Overloading\n";
+    // call function with int  parameter
+    add(x,y);
+
+    // call function with double parameters
+    add(l, m);
+
+    return 0;
+}
