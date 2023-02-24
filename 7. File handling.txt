@@ -1,0 +1,36 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main() {
+
+    string flName;
+    char mesg[40], ch;
+
+    cout << "Enter the file name you want to create : ";
+    cin >> flName;
+    cin.get();      //read the trailing enter character
+
+    ofstream fout(flName.c_str());
+    // fout.close();
+    if(fout.fail()){
+        cout << "\nFailed to create file." << endl;
+    }
+    else{
+        cout << "\nFile " << flName <<" created successfully" << endl;
+    }
+
+    cout << "Enter a message : ";
+    cin.getline(mesg,40);
+    fout << mesg << endl;
+    cout << "\nMessage written to file successfully\n" << endl;
+    fout.close();
+
+    ifstream fin(flName.c_str());
+    cout << "Here are the contents of " << flName << ":\n";
+    
+    while (fin.get(ch))    // read character from file and
+        cout << ch;    // write it to screen
+    cout << "\nDone reading file contents\n" << endl;
+    fin.close();
+    return 0;
+}

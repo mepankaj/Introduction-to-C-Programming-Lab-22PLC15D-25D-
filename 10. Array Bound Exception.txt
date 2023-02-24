@@ -1,0 +1,35 @@
+#include <iostream>
+#include <iomanip>
+#include <cstdlib>
+#include <vector>
+using namespace std;
+
+int main(void){
+    
+    vector<int> values;
+    int iDx, iElem;
+
+    srand(time(NULL));
+    for(int i=0;i<100;i++){
+        iElem = rand() %10000;
+        values.push_back(iElem);
+    }
+
+    try{
+        //generate a random index and test repeatedly 10 times
+        for(int i=0;i<10;i++){
+            iDx = rand() % 200 - 50;
+            if(iDx < 0 || iDx >=100){
+                cout << "Generated index " << iDx << " is invalid" << endl;
+                throw logic_error("Array out of Bounds");
+            }
+            cout << "Generated index is " << iDx << " the value at that index is : " << values[i] << endl;
+        }
+
+    }
+    catch (logic_error& e){
+        cout << "Processing error " << endl << e.what() << " exception occured.\n" << endl;
+    }
+
+    return 0;
+}
